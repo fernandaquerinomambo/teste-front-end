@@ -35,7 +35,7 @@ Desenvolver com apenas HTML,CSS e JS  o [layout](https://www.figma.com/file/fMjE
 - Minifique seu javascript e deixe-o na pasta "js";
 - Faça commit também dos arquivos não minificados;
 - Faça o layout responsivo;
-- Faça interação com JSON disponibilizado para renderizar os produtos
+- Faça interação com [JSON](https://github.com/fernandaquerinomambo/teste-front-end/blob/master/array-products.json) disponibilizado para renderizar os produtos
 - Faça o carrossel do banner principal
 
 ### Sobre o layout:
@@ -52,12 +52,12 @@ Prateleira listagem de produtos
 https://prnt.sc/tma8pq
 
 #### Nessa tela temos tipos de produtos:
-- Produto organico https://prnt.sc/tma9k7 onde mostramos uma flag de organico, caso o campo "productIsOrganic" do array de produtos estiver true nos mostramos a flag. 
-- Produto Indisponivel https://prnt.sc/tma9x5 onde mostramos que está indisponivel no lugar do botao comprar, caso o campo "productHasStock" do array de produtos estiver como false.
-- Produto Mambo Plus https://prnt.sc/tmaa6k caso o campo "productIsMamboPlus" do array de produtos estiver true
-- Produto com preço promocional https://prnt.sc/tmaajd caso o campo "productSalePrice" do array de produtos estiver preenchido.
+- Produto organico https://prnt.sc/tma9k7 onde mostramos uma flag de organico, caso o campo "productIsOrganic" do [array de produtos](https://github.com/fernandaquerinomambo/teste-front-end/blob/master/array-products.json) estiver true nos mostramos a flag. 
+- Produto Indisponivel https://prnt.sc/tma9x5 onde mostramos que está indisponivel no lugar do botao comprar, caso o campo "productHasStock" do [array de produtos](https://github.com/fernandaquerinomambo/teste-front-end/blob/master/array-products.json) estiver como false.
+- Produto Mambo Plus https://prnt.sc/tmaa6k caso o campo "productIsMamboPlus" do [array de produtos](https://github.com/fernandaquerinomambo/teste-front-end/blob/master/array-products.json) estiver true
+- Produto com preço promocional https://prnt.sc/tmaajd caso o campo "productSalePrice" do [array de produtos](https://github.com/fernandaquerinomambo/teste-front-end/blob/master/array-products.json) estiver preenchido.
 
-No hover da prateleira de produto mostrar o botão espiar https://prnt.sc/tmab5q e ao clicar abrir o modal com as especificações do produto puxadas
+No hover da prateleira de produto mostrar o botão espiar https://prnt.sc/tmab5q e ao clicar abrir o modal com as especificações do produto puxadas do [array de produtos](https://github.com/fernandaquerinomambo/teste-front-end/blob/master/array-products.json)
 
 #### Bonus:
 - Ao adicionar mostrar um aviso de que o produto foi adicionado https://prnt.sc/tmabkq

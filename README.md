@@ -1,6 +1,6 @@
-# Teste Frond-End
+# Teste Frond-End Junior
 
-Teste para atuar no time do E-commerce como Desenvolvedor Front-End.
+Teste para atuar no time do E-commerce como Desenvolvedor Front-End Junior.
 
 ### Requisitos:
 

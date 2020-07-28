@@ -1,0 +1,290 @@
+.svg--burger__icon {
+  position: absolute;
+  width: 17.5px;
+  height: 15.31px;
+  left: 16px;
+  top: 18px;
+  background: #f44237;
+}
+
+.svg--search__icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: calc(50% - 16px / 2);
+  top: calc(50% - 16px / 2);
+  background: #ffffff;
+}
+
+.svg--profile__icon {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #f44237;
+}
+
+.svg--profile__icon--mobile {
+  position: absolute;
+  left: 28.12%;
+  right: 28.54%;
+  top: 25%;
+  bottom: 25%;
+  background: #ffffff;
+}
+
+.svg--star__ratings {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  left: 48px;
+  top: calc(50% - 11px / 2 + 0.5px);
+  background: $BG_Yellow;
+}
+
+.svg--producttype__organic {
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  left: 8px;
+  top: calc(50% - 16px / 2);
+  background: $BG_Green;
+}
+
+.svg--x__close__button {
+  width: 12.5px;
+  height: 12.5px;
+  border: 10px solid $BD_Red;
+  background: $BG_Green;
+}
+
+.svg--mplus__icon {
+  & .svg--mplus__icon--sub01 {
+    position: absolute;
+    left: 68.5%;
+    right: 6%;
+    top: 6.49%;
+    bottom: 79.72%;
+    background: #ff001f;
+  }
+
+  & .svg--mplus__icon--sub02 {
+    position: absolute;
+    left: 71.41%;
+    right: 8.92%;
+    top: 10.23%;
+    bottom: 83.48%;
+    background: #ffffff;
+  }
+
+  & .svg--mplus__icon--sub03 {
+    position: absolute;
+    left: 76.79%;
+    right: 18.35%;
+    top: 16.58%;
+    bottom: 79.73%;
+    background: #000000;
+  }
+
+  & .svg--mplus__icon--sub04 {
+    position: absolute;
+    left: 81.03%;
+    right: 15.84%;
+    top: 15.88%;
+    bottom: 80.95%;
+    background: #000000;
+  }
+
+  & .svg--mplus__icon--sub05 {
+    position: absolute;
+    left: 82.94%;
+    right: 12.89%;
+    top: 16.61%;
+    bottom: 80.95%;
+    background: #000000;
+  }
+
+  & .svg--mplus__icon--sub06 {
+    position: absolute;
+    left: 86.38%;
+    right: 9.75%;
+    top: 16.63%;
+    bottom: 80.95%;
+    background: #000000;
+  }
+}
+
+.svg--ok__icon {
+  position: absolute;
+  left: 10%;
+  right: 84.94%;
+  top: 44.29%;
+  bottom: 41.43%;
+  border: 1.66667px solid #ffffff;
+}
+
+// Logotipo
+.svg--main__logo {
+  & .svg--main__logo--sub01 {
+    position: absolute;
+    left: 27.4%;
+    right: 70.14%;
+    top: 0%;
+    bottom: 81.83%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub02 {
+    position: absolute;
+    left: 23.25%;
+    right: 74.18%;
+    top: 0%;
+    bottom: 81.83%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub03 {
+    position: absolute;
+    left: 19.57%;
+    right: 77.9%;
+    top: 0%;
+    bottom: 81.83%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub04 {
+    position: absolute;
+    left: 16.22%;
+    right: 81.41%;
+    top: 0%;
+    bottom: 81.83%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub05 {
+    position: absolute;
+    left: 13.63%;
+    right: 85.33%;
+    top: 0%;
+    bottom: 81.83%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub06 {
+    position: absolute;
+    left: 10.17%;
+    right: 87.91%;
+    top: 0%;
+    bottom: 81.83%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub07 {
+    position: absolute;
+    left: 6.49%;
+    right: 90.99%;
+    top: 0%;
+    bottom: 81.83%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub08 {
+    position: absolute;
+    left: 2.46%;
+    right: 94.92%;
+    top: 0%;
+    bottom: 81.83%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub09 {
+    position: absolute;
+    left: 95.75%;
+    right: 0.26%;
+    top: 68.92%;
+    bottom: 0.85%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub10 {
+    position: absolute;
+    left: 90.47%;
+    right: 4.46%;
+    top: 58.72%;
+    bottom: 0.01%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub11 {
+    position: absolute;
+    left: 87.99%;
+    right: 10.16%;
+    top: 89.19%;
+    bottom: 0.85%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub12 {
+    position: absolute;
+    left: 80.09%;
+    right: 12.33%;
+    top: 68.93%;
+    bottom: 0.85%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub13 {
+    position: absolute;
+    left: 75.19%;
+    right: 20.16%;
+    top: 68.92%;
+    bottom: 0.01%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub14 {
+    position: absolute;
+    left: 70.44%;
+    right: 25.01%;
+    top: 68.92%;
+    bottom: 0.01%;
+    background: #000000;
+  }
+  & .svg--main__logo--sub15 {
+    position: absolute;
+    left: 67.74%;
+    right: 30.41%;
+    top: 89.19%;
+    bottom: 0.85%;
+
+    background: #000000;
+  }
+  & .svg--main__logo--sub16 {
+    position: absolute;
+    left: 0%;
+    right: 82.32%;
+    top: 27.18%;
+    bottom: 2.37%;
+    background: #f44237;
+  }
+  & .svg--main__logo--sub17 {
+    position: absolute;
+    left: 17.55%;
+    right: 71.49%;
+    top: 27.26%;
+    bottom: 0.09%;
+    background: #f44237;
+  }
+  & .svg--main__logo--sub18 {
+    position: absolute;
+    left: 45.4%;
+    right: 42.78%;
+    top: 0%;
+    bottom: 0.39%;
+    background: #f44237;
+  }
+  & .svg--main__logo--sub19 {
+    position: absolute;
+    left: 57.89%;
+    right: 31.27%;
+    top: 27.26%;
+    bottom: 0.39%;
+    background: #f44237;
+  }
+  & .svg--main__logo--sub20 {
+    position: absolute;
+    left: 28.11%;
+    right: 54.22%;
+    top: 27.17%;
+    bottom: 2.37%;
+    background: #f44237;
+  }
+}

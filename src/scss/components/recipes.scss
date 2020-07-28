@@ -1,0 +1,12 @@
+.recipes__container {
+  width: 85vw;
+  margin-top: 50px;
+
+  & .recipes__images__container {
+    width: 100%;
+  }
+
+  & .recipes__image {
+    width: 100%;
+  }
+}

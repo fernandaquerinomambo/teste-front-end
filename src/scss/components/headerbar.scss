@@ -1,0 +1,208 @@
+.headerbar__container {
+  width: 100%;
+  height: 100px;
+  position: relative;
+
+  // Menu principal lateral
+  & .headerbar__burgermenu__background__container {
+    background-color: $BG_Black60;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9000;
+    display: none;
+
+    & .headerbar__burgermenu__nav__container {
+      background-color: $BG_White;
+      width: 320px;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.3);
+      transition: 0.3s;
+
+      & * {
+        color: $LT_LightDark;
+      }
+
+      & .headerbar__burgermenu__title__container {
+        width: 100%;
+        height: 50px;
+        border-bottom: solid 1px $BD_LightGrey;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & .headerbar__burgermenu__title {
+          font-size: 1.6em;
+          margin-left: 20px;
+        }
+
+        & .headerbar__burgermenu__close {
+          background-color: transparent;
+          margin-right: 20px;
+        }
+      }
+
+      & .headerbar__burgermenu__button {
+        background-color: $BG_White;
+        width: 100%;
+        height: 50px;
+        border-bottom: solid 1px $BD_LightGrey;
+        display: flex;
+        align-items: center;
+
+        & span {
+          font-size: 1em;
+          margin-left: 20px;
+        }
+
+        &:hover {
+          background-color: $BG_LightGrey;
+        }
+      }
+
+      & .headerbar__burgermenu__button--active {
+        background-color: $BG_LightGrey;
+        font-size: 1.1em;
+        font-weight: bold;
+      }
+    }
+
+    & .hide--side--burgermenu {
+      left: -400px;
+    }
+  }
+
+  // Headerbar
+  & .headerbar__nav__container {
+    background-color: $BG_Dark;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > div {
+      width: 90%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      & a {
+        color: $LT_White;
+        font-size: 0.8em;
+        font-weight: 300;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      & .headerbar__nav__separator {
+        background-color: $BG_White;
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        margin: 0px 20px;
+      }
+    }
+  }
+
+  & .headerbar__main__container {
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 1px $BD_LightGrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > div {
+      display: flex;
+      width: 90%;
+      height: 100%;
+
+      & * {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+
+      & .headerbar__logo__container {
+        width: 300px;
+        justify-content: flex-start;
+      }
+
+      & .headerbar__burgermenu__open {
+        display: none;
+      }
+
+      & .headerbar__search__container {
+        width: 100%;
+
+        & > div {
+          width: 90%;
+          height: 40px;
+          border: solid 1px $BD_LightGrey;
+          border-radius: 50px;
+          padding-right: 1px;
+          display: flex;
+
+          & .headerbar__search__input {
+            flex: 1;
+            height: 100%;
+            margin-left: 20px;
+          }
+
+          & .headerbar__search__button {
+            background-color: $BG_Red;
+            width: 37px;
+            height: 37px;
+            border-radius: 50%;
+            margin-right: 1px;
+          }
+        }
+      }
+
+      & .headerbar__account__container {
+        width: 300px;
+        justify-content: flex-end;
+
+        & .headerbar__account__icon__container {
+          width: 100px;
+          display: flex;
+          flex-direction: column;
+
+          & .headerbar__account__icon {
+            background-color: transparent;
+            width: 32px;
+            height: 32px;
+            border: solid 1px $BD_LightGrey;
+            border-radius: 50%;
+            margin-bottom: 5px;
+          }
+
+          & .headerbar__account__text {
+            color: $LT_Light;
+            height: 1.2em;
+          }
+        }
+        & .headerbar__account__icon__container--mobile {
+          display: none;
+        }
+      }
+    }
+  }
+
+  & .headerbar__search__container--mobile--container {
+    display: none;
+  }
+}

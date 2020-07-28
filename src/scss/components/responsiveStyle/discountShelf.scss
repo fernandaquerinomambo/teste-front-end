@@ -1,0 +1,71 @@
+@media screen and (max-width: 700px) {
+  .discountshelf__container {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .discountshelf__container {
+    & .discountshelf__carousel__container {
+      // Estilo dos itens deste carrocel
+      & .discountshelf__carousel__item__container {
+        & .discountshelf__carousel__item {
+          width: 140px;
+          height: 355px;
+
+          & .discountshelf__carousel__item__image__container {
+            width: 100%;
+            height: 130px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+            & .discountshelf__carousel__item__image {
+              width: 130px;
+              height: 130px;
+            }
+          }
+
+          & .discountshelf__carousel__item__brand {
+            font-size: 0.9em;
+          }
+
+          & .discountshelf__carousel__item__name {
+            font-size: 0.9em;
+          }
+
+          & .discountshelf__carousel__item__buy {
+            font-size: 0.8em;
+            height: 35px;
+          }
+
+          & .discountshelf--carousel--item--overcontainer {
+            & .discountshelf__carousel__item__spy {
+              font-size: 0.8em;
+              height: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 460px) {
+  .discountshelf__container {
+    width: 100%;
+    & .discountshelf__carousel__container {
+      width: 100%;
+
+      // Estilo dos itens deste carrocel
+      & .discountshelf__carousel__item__container {
+        & .discountshelf__carousel__item {
+          border: none;
+        }
+      }
+    }
+
+    // Botões de navegação do carrocel
+    & .discountshell__carousel__nav__buttons__container {
+      display: none;
+    }
+  }
+}

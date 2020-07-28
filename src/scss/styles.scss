@@ -1,0 +1,37 @@
+// Fontes
+@import './fonts/fontsImport.scss';
+
+// Variaveis
+@import './variables/layoutColors.scss';
+
+// Reset de estilo
+@import './global/resetStyle.scss';
+
+// Aplicação de estilos globais
+@import './global/globalStyle.scss';
+@import './global/svgStyle.scss';
+
+// API Owl Carousel
+@import '../../node_modules/owl.carousel/src/scss/owl.carousel.scss';
+@import '../../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
+
+// Estilos dos componentes
+@import './components/headerbar.scss';
+@import './components/mainBanner.scss';
+@import './components/promotions.scss';
+@import './components/discountShelf.scss';
+@import './components/essentialForYourDay.scss';
+@import './components/recipes.scss';
+@import './components/footer.scss';
+@import './components/productView.scss';
+@import './components/successfulPruchase.scss';
+
+// Estilos dos componentes responsivos
+@import './components/responsiveStyle/headerbar.scss';
+@import './components/responsiveStyle/mainBanner.scss';
+@import './components/responsiveStyle/promotions.scss';
+@import './components/responsiveStyle/discountShelf.scss';
+@import './components/responsiveStyle/essentialForYourDay.scss';
+@import './components/responsiveStyle/recipes.scss';
+@import './components/responsiveStyle/footer.scss';
+@import './components/responsiveStyle/productView.scss';

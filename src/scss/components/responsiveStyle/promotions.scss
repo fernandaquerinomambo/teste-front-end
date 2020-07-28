@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px) {
+  .promotions__container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .promotions__container {
+    display: none;
+  }
+}

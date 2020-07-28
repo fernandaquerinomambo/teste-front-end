@@ -1,0 +1,22 @@
+/* footer item */
+$footer-li-color: #747474;
+
+.footer-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.footer-children {
+  padding: 15px;
+
+  ul {
+    li {
+      color: $footer-li-color;
+      font-size: 12px;
+    }
+    li + li {
+      margin-top: 10px;
+    }
+  }
+}

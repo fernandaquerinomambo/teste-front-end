@@ -1,4 +1,4 @@
-{
+export const dracker = {
   "products": [
     {
       "productName": "Carne Moída de Patinho Bovina Resfriada Bandeja",
@@ -120,4 +120,6 @@
       "productHasStock": true,
       "productDescription": "O papel manteiga Wyda é a solução ideal na sua cozinha. Preparado com matéria resistente, o papel manteiga Wyda é ideal para separar alimentos e fazer assados. Pode ser usado em microondas, freezer ou forno."
     }
-]};
+  ]
+}
+

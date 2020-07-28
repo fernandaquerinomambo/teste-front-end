@@ -1,0 +1,50 @@
+.footer__container {
+  width: 85vw;
+  margin: 50px 0px 100px;
+  display: flex;
+  justify-content: space-between;
+
+  & article {
+    width: auto;
+  }
+
+  & .footer__titles {
+    color: $LT_Dark;
+    font-size: 1.1em;
+  }
+
+  & .footer__content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    & .footer__content__link {
+      color: $LT_LightDark;
+      font-size: 0.8em;
+
+      & ~ .footer__content__link {
+        margin-top: 12.5px;
+      }
+
+      &:hover {
+        color: $LT_Red;
+      }
+    }
+
+    & .footer__content__description {
+      color: $LT_LightDark;
+      font-size: 0.8em;
+
+      & ~ .footer__content__description {
+        margin-top: 12.5px;
+      }
+    }
+  }
+
+  & .footer__helpandsupport__container {
+    & hr {
+      width: 250px;
+      margin: 20px 0px;
+    }
+  }
+}

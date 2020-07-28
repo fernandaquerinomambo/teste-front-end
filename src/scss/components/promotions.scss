@@ -1,0 +1,80 @@
+.promotions__container {
+  width: 85vw;
+  margin-top: 50px;
+
+  & .promotions__images__container {
+    width: 100%;
+    position: relative;
+
+    & img {
+      height: 240px;
+    }
+
+    & .promotions__image01 {
+      width: 412px;
+    }
+
+    & .promotions__image02 {
+      width: 235px;
+    }
+
+    & .promotions__image03 {
+      width: 412px;
+    }
+
+    // Botões laterais de navegação do carrocel
+    & .promotions__carousel__nav__buttons__container {
+      width: 100%;
+      height: 50px;
+      padding: 0px;
+      margin: 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      left: 0px;
+      top: calc(50% - 25px);
+
+      & .prev-button,
+      & .next-button {
+        background-color: $BG_Black80;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.1s;
+
+        & span {
+          margin-top: -8.5px;
+          font-size: 2.5em;
+          text-align: center;
+          color: $BG_LightGrey;
+          font-weight: 300;
+        }
+
+        &:hover {
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      & .prev-button {
+        margin-left: 10px;
+
+        &:hover {
+          margin-left: 7.5px;
+        }
+      }
+
+      & .next-button {
+        margin-right: 10px;
+
+        &:hover {
+          margin-right: 7.5px;
+        }
+      }
+    }
+  }
+}

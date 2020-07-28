@@ -1,0 +1,41 @@
+{
+  "name": "teste-front-end",
+  "version": "1.0.0",
+  "description": "Teste para atuar no time do E-commerce como Desenvolvedor Front-End Junior.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp compiler",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoCosta001/teste-front-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoCosta001/teste-front-end/issues"
+  },
+  "homepage": "https://github.com/LeoCosta001/teste-front-end#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "dart-sass": "^1.25.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inject-partials": "^1.0.5",
+    "gulp-sass": "^4.1.0",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "owl.carousel": "^2.3.4"
+  }
+}

@@ -1,0 +1,259 @@
+.productview__background {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  & .productview__container {
+    background-color: $BG_White;
+    width: 770px;
+    max-height: 70%;
+    border-radius: 4px;
+    padding: 30px;
+    position: relative;
+    margin: 0px 20px;
+    overflow: auto;
+
+    & .productview__close__button {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background-color: transparent;
+    }
+
+    & .productview__content__container {
+      width: 100%;
+      height: 100%;
+
+      & * {
+        color: $LT_LightDark;
+      }
+
+      & .productview__maininfo__container {
+        display: flex;
+        justify-content: space-between;
+
+        /**********************
+       * Estilo do carrocel *
+       **********************/
+        & .productview__images__container {
+          width: 300px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+
+          & .productview__image__selected__container {
+            width: 100%;
+
+            & .productview__image__selected {
+              width: 100%;
+            }
+          }
+
+          & .productview__image__alert {
+            font-size: 0.8em;
+            margin: 30px 0px;
+          }
+
+          & .productview__carousel__container {
+            width: 200px;
+
+            & .productview__carousel__image__container {
+              flex: 1;
+              display: flex;
+              justify-content: center;
+
+              & .productview__carousel__image {
+                cursor: pointer;
+                width: 50px;
+                border: solid 1px $BG_Red;
+                opacity: 0.6;
+
+                &:hover {
+                  opacity: 1;
+                }
+              }
+            }
+
+            & .owl-stage-outer {
+              z-index: 1100;
+            }
+          }
+
+          // Botões de navegação do carrocel
+          & .productview__carousel__nav__buttons__container {
+            width: calc(100% + 100px);
+            height: 50px;
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            left: -50px;
+            top: calc(50% - 25px);
+            z-index: 1050;
+
+            & .prev-button,
+            & .next-button {
+              background-color: $BG_Black80;
+              opacity: 0.6;
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              transition: 0.1s;
+
+              & span {
+                margin-top: -8.5px;
+                font-size: 2.5em;
+                text-align: center;
+                color: $BG_LightGrey;
+                font-weight: 300;
+              }
+
+              &:hover {
+                opacity: 1;
+              }
+            }
+
+            & .prev-button {
+              margin-left: 10px;
+            }
+
+            & .next-button {
+              margin-right: 10px;
+            }
+          }
+
+          & .owl-dots {
+            display: none;
+          }
+        }
+
+        /**************************
+       * Informações do produto *
+       **************************/
+        & .productview__info__container {
+          width: calc(100% - 325px);
+
+          // Informações principais
+          & .productview__info__brand {
+            color: $BG_Red;
+            font-size: 0.9em;
+          }
+
+          & .productview__info__name {
+            color: $LT_Dark;
+            font-size: 1.3em;
+            margin-top: 5px;
+          }
+
+          & .productview__info__stars {
+            font-size: 0.8em;
+            height: 15px;
+            margin-top: 5px;
+          }
+
+          & .productview__info__type {
+            margin-top: 20px;
+
+            & .productview__info__type__item {
+              background-color: $BG_Green;
+              width: 95px;
+              height: 25px;
+              border-radius: 50px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .productview__info__type__icon {
+                background-color: $BG_White;
+                width: 23px;
+                height: 23px;
+                border-radius: 50%;
+                margin-left: 1px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+
+              & .productview__info__type__text {
+                color: $LT_White;
+                font-size: 0.8em;
+                font-weight: 300;
+                margin-bottom: 1px;
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+
+          & .productview__info__price__container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+
+            & .productview__info__saleprice {
+              text-decoration: line-through;
+              font-size: 1.5em;
+            }
+
+            & .productview__info__price {
+              color: $LT_Green;
+              font-size: 2.5em;
+              font-weight: bold;
+            }
+          }
+
+          & .productview__info__buy {
+            background-color: $BG_Red;
+            color: $LT_White;
+            font-size: 0.9em;
+            height: 40px;
+            width: 180px;
+            border-radius: 50px;
+            margin-top: 20px;
+          }
+
+          & .no--stock--button {
+            background-color: $BG_LightGrey;
+            color: $LT_Light;
+          }
+        }
+      }
+
+      // Descrição do produto
+      & .productview__description__container {
+        margin-top: 20px;
+
+        & .productview__description__title {
+          font-size: 0.9em;
+          font-weight: bold;
+        }
+
+        & .productview__description__content {
+          margin-top: 10px;
+          font-size: 0.9em;
+          line-height: 1.5em;
+        }
+      }
+    }
+  }
+}

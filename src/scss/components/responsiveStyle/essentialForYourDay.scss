@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px) {
+  .essentialForYourDay__container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    & .essentialForYourDay__title {
+      margin-bottom: 15px;
+      font-size: 1.5em;
+    }
+
+    & .essentialForYourDay__item__container {
+      max-width: 475px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      & .essentialForYourDay__item {
+        width: 140px;
+        margin: 5px 10px;
+
+        & img {
+          width: 100%;
+        }
+      }
+
+      & .essentialForYourDay__item__title {
+        margin-top: 5px;
+        text-align: center;
+        font-size: 1em;
+      }
+    }
+  }
+}

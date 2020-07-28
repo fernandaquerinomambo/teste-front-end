@@ -1,0 +1,107 @@
+@media screen and (max-width: 600px) {
+  .productview__background {
+    & .productview__container {
+      padding: 20px;
+      & .productview__content__container {
+        & .productview__maininfo__container {
+          /**********************
+          * Estilo do carrocel *
+          **********************/
+          & .productview__images__container {
+            width: 40%;
+
+            & .productview__image__selected__container {
+              width: 100%;
+
+              & .productview__image__selected {
+                width: 100%;
+              }
+            }
+
+            & .productview__image__alert {
+              text-align: center;
+              margin: 20px 0px;
+            }
+
+            & .productview__carousel__container {
+              width: 100%;
+              & .productview__carousel__image__container {
+                & .productview__carousel__image {
+                  border: solid 1px transparent;
+                }
+              }
+            }
+
+            // Botões de navegação do carrocel
+            & .productview__carousel__nav__buttons__container {
+              display: none;
+            }
+
+            & .owl-dots {
+              display: block;
+            }
+          }
+
+          /**************************
+          * Informações do produto *
+          **************************/
+          & .productview__info__container {
+            margin-left: 10px;
+            width: auto;
+
+            // Informações principais
+            & .productview__info__name {
+              font-size: 1.1em;
+              margin-top: 10px;
+            }
+
+            & .productview__info__stars {
+              margin-top: 10px;
+            }
+
+            & .productview__info__price__container {
+              & .productview__info__saleprice {
+                font-size: 1.3em;
+              }
+
+              & .productview__info__price {
+                font-size: 2em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .productview__background {
+    & .productview__container {
+      padding: 10px;
+      & .productview__content__container {
+        & .productview__maininfo__container {
+          /**************************
+          * Informações do produto *
+          **************************/
+          & .productview__info__container {
+            & .productview__info__buy {
+              background-color: $BG_Red;
+              color: $LT_White;
+              font-size: 0.9em;
+              height: 40px;
+              width: 100%;
+              border-radius: 50px;
+              margin-top: 20px;
+            }
+
+            & .no--stock--button {
+              background-color: $BG_LightGrey;
+              color: $LT_Light;
+            }
+          }
+        }
+      }
+    }
+  }
+}
